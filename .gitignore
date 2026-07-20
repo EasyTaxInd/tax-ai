@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+/jspm_packages/
+web_modules/
+
+# Python Caches & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Build & Bundler Artifacts
+dist/
+build/
+out/
+.next/
+.nuxt/
+.turbo/
+.cache/
+.parcel-cache/
+.yarn/cache/
+.yarn/unplugged/
+.pnp.*
+
+# IDEs and Editors
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Environment and Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+*.env
+*.env.*
+!.env.example
